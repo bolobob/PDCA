@@ -1,0 +1,10 @@
+body {
+    padding: 40px 0 0;
+}
+#header {
+    margin: 20px 0 0;
+}
+#content {
+    margin: 20px 0 0;
+    min-height: 450px;
+}

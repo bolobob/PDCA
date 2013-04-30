@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./common.css" rel="stylesheet" media="screen">
+    <link href="./main.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+	<div class="container">
+	  <a href="javascript:void(0);" class="brand">
+	    <span class="text-success">P</span>
+	    <span class="text-error">D</span>
+	    <span class="text-warning">C</span>
+	    <span class="text-info">A</span>
+	  </a>
+	</div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="content">
+	<div class="tabbable">
+	  <ul class="nav nav-tabs">
+	    <li class="active"><a href="#all-pdca" data-toggle="tab">全て</a></li>
+	    <li><a href="#in-process" data-toggle="tab">進行中</a></li>
+	    <li><a href="#close" data-toggle="tab">完了</a></li>
+	    <li><a href="#new" data-toggle="tab">新規作成</a></li>
+	  </ul>
+	  <div class="tab-content">
+	    <div class="tab-pane active" id="all-pdca">
+	      <table class="table table-striped">
+		<thead>
+		  <tr>
+		    <th class="span2">開始日</th>
+		    <th>プロジェクト</th>
+		    <th class="span2"></th>
+		    <th class="span2"></th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <td>2012.11.23 ~</td>
+		    <td>送料無料クーポン</td>
+		    <td>３回目</td>
+		    <td>P<strong class="text-error" style="font-size: 21px;">D</strong>CA</td>
+		  </tr>
+		</tbody>
+	      </table>
+	    </div>
+	    <div class="tab-pane" id="in-process">
+	      <p>Howdy, I'm in Section 2.</p>
+	    </div>
+	    <div class="tab-pane" id="close">
+	      <p>Howdy, I'm in Section 3.</p>
+	    </div>
+	    <div class="tab-pane" id="new">
+	      <form>
+		<div class="input-append">
+		  <input class="span4" type="text" placeholder="プロジェクト名">
+		  <button class="btn" type="button">作成する</button>
+		</div>
+	      </form>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <div id="footer">
+	<p>&copy;Shinichi Aoki</p>
+      </div>
+    </div>
+  </body>
+</html>
